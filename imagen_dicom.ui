@@ -1,0 +1,351 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Ventana_imagenes</class>
+ <widget class="QDialog" name="Ventana_imagenes">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>741</width>
+    <height>446</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <property name="modal">
+   <bool>false</bool>
+  </property>
+  <widget class="QWidget" name="dcm" native="true">
+   <property name="geometry">
+    <rect>
+     <x>29</x>
+     <y>19</y>
+     <width>321</width>
+     <height>321</height>
+    </rect>
+   </property>
+   <property name="cursor">
+    <cursorShape>ArrowCursor</cursorShape>
+   </property>
+   <property name="autoFillBackground">
+    <bool>false</bool>
+   </property>
+  </widget>
+  <widget class="QSlider" name="vertical_slider">
+   <property name="geometry">
+    <rect>
+     <x>370</x>
+     <y>29</y>
+     <width>20</width>
+     <height>311</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color: rgb(22, 72, 99);</string>
+   </property>
+   <property name="orientation">
+    <enum>Qt::Vertical</enum>
+   </property>
+  </widget>
+  <widget class="QWidget" name="formLayoutWidget">
+   <property name="geometry">
+    <rect>
+     <x>400</x>
+     <y>220</y>
+     <width>180</width>
+     <height>64</height>
+    </rect>
+   </property>
+   <layout class="QFormLayout" name="formLayout">
+    <item row="0" column="0">
+     <widget class="QLabel" name="label">
+      <property name="styleSheet">
+       <string notr="true">font: 75 7pt &quot;Georgia&quot;;
+color: rgb(22, 72, 99);</string>
+      </property>
+      <property name="text">
+       <string>IMAGEN ACTUAL:</string>
+      </property>
+     </widget>
+    </item>
+    <item row="0" column="1">
+     <widget class="QLabel" name="valor_act">
+      <property name="styleSheet">
+       <string notr="true">font: 75 7pt &quot;Georgia&quot;;</string>
+      </property>
+      <property name="text">
+       <string>TextLabel</string>
+      </property>
+     </widget>
+    </item>
+    <item row="1" column="0">
+     <widget class="QLabel" name="label_2">
+      <property name="styleSheet">
+       <string notr="true">font: 75 7pt &quot;Georgia&quot;;
+color: rgb(22, 72, 99);</string>
+      </property>
+      <property name="text">
+       <string>TOTAL IMÁGENES:</string>
+      </property>
+     </widget>
+    </item>
+    <item row="1" column="1">
+     <widget class="QLabel" name="total_valor">
+      <property name="styleSheet">
+       <string notr="true">font: 75 7pt &quot;Georgia&quot;;</string>
+      </property>
+      <property name="text">
+       <string>TextLabel</string>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QWidget" name="formLayoutWidget_2">
+   <property name="geometry">
+    <rect>
+     <x>400</x>
+     <y>50</y>
+     <width>251</width>
+     <height>133</height>
+    </rect>
+   </property>
+   <layout class="QFormLayout" name="formLayout_2">
+    <item row="0" column="0">
+     <widget class="QLabel" name="label_4">
+      <property name="styleSheet">
+       <string notr="true">font: 75 9pt &quot;Georgia&quot;;
+color: rgb(22, 72, 99);</string>
+      </property>
+      <property name="text">
+       <string>ID PACIENTE:</string>
+      </property>
+     </widget>
+    </item>
+    <item row="0" column="1">
+     <widget class="QLabel" name="patient_id">
+      <property name="styleSheet">
+       <string notr="true">font: 75 9pt &quot;Georgia&quot;;
+</string>
+      </property>
+      <property name="text">
+       <string>Text</string>
+      </property>
+     </widget>
+    </item>
+    <item row="1" column="0">
+     <widget class="QLabel" name="label_6">
+      <property name="styleSheet">
+       <string notr="true">font: 75 9pt &quot;Georgia&quot;;
+color: rgb(22, 72, 99);</string>
+      </property>
+      <property name="text">
+       <string>SEXO:</string>
+      </property>
+     </widget>
+    </item>
+    <item row="1" column="1">
+     <widget class="QLabel" name="patient_sex">
+      <property name="styleSheet">
+       <string notr="true">font: 75 9pt &quot;Georgia&quot;;</string>
+      </property>
+      <property name="text">
+       <string>TextLabel</string>
+      </property>
+     </widget>
+    </item>
+    <item row="2" column="0">
+     <widget class="QLabel" name="label_8">
+      <property name="styleSheet">
+       <string notr="true">font: 75 9pt &quot;Georgia&quot;;
+color: rgb(22, 72, 99);</string>
+      </property>
+      <property name="text">
+       <string>PESO:</string>
+      </property>
+     </widget>
+    </item>
+    <item row="2" column="1">
+     <widget class="QLabel" name="patient_w">
+      <property name="styleSheet">
+       <string notr="true">font: 75 9pt &quot;Georgia&quot;;</string>
+      </property>
+      <property name="text">
+       <string>TextLabel</string>
+      </property>
+     </widget>
+    </item>
+    <item row="3" column="0">
+     <widget class="QLabel" name="label_10">
+      <property name="styleSheet">
+       <string notr="true">font: 75 9pt &quot;Georgia&quot;;
+color: rgb(22, 72, 99);</string>
+      </property>
+      <property name="text">
+       <string>FECHA ESTUDIO:</string>
+      </property>
+     </widget>
+    </item>
+    <item row="3" column="1">
+     <widget class="QLabel" name="date_study">
+      <property name="styleSheet">
+       <string notr="true">font: 75 9pt &quot;Georgia&quot;;</string>
+      </property>
+      <property name="text">
+       <string>TextLabel</string>
+      </property>
+     </widget>
+    </item>
+    <item row="4" column="0">
+     <widget class="QLabel" name="label_12">
+      <property name="styleSheet">
+       <string notr="true">font: 75 9pt &quot;Georgia&quot;;
+color: rgb(22, 72, 99);</string>
+      </property>
+      <property name="text">
+       <string>PARTE CUERPO:</string>
+      </property>
+     </widget>
+    </item>
+    <item row="4" column="1">
+     <widget class="QLabel" name="bpart">
+      <property name="styleSheet">
+       <string notr="true">font: 75 9pt &quot;Georgia&quot;;</string>
+      </property>
+      <property name="text">
+       <string>TextLabel</string>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QLabel" name="label_3">
+   <property name="geometry">
+    <rect>
+     <x>400</x>
+     <y>20</y>
+     <width>331</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color: rgb(22, 72, 99);
+font: 75 13pt &quot;Georgia&quot;;</string>
+   </property>
+   <property name="text">
+    <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:12pt; font-weight:600;&quot;&gt;INFORMACIÓN DEL PACIENTE&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="cerrar">
+   <property name="geometry">
+    <rect>
+     <x>620</x>
+     <y>390</y>
+     <width>111</width>
+     <height>28</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(22, 72, 99);
+color: rgb(155, 190, 200);
+font: 75 9pt &quot;Georgia&quot;rgb(155, 190, 200)</string>
+   </property>
+   <property name="text">
+    <string>SALIR</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_5">
+   <property name="geometry">
+    <rect>
+     <x>-20</x>
+     <y>-20</y>
+     <width>791</width>
+     <height>471</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(221, 242, 253);</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="numero_imagen">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>350</y>
+     <width>113</width>
+     <height>20</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="buscar_imagen">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>380</y>
+     <width>75</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(22, 72, 99);
+color: rgb(155, 190, 200);
+font: 75 9pt &quot;Georgia&quot;rgb(155, 190, 200)</string>
+   </property>
+   <property name="text">
+    <string>BUSCAR</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="advertencia">
+   <property name="geometry">
+    <rect>
+     <x>170</x>
+     <y>350</y>
+     <width>171</width>
+     <height>61</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 75 9pt &quot;Georgia&quot;;
+background-color: rgb(221, 242, 253);</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="salir_">
+   <property name="geometry">
+    <rect>
+     <x>620</x>
+     <y>350</y>
+     <width>111</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(22, 72, 99);
+color: rgb(155, 190, 200);
+font: 75 9pt &quot;Georgia&quot;rgb(155, 190, 200)</string>
+   </property>
+   <property name="text">
+    <string>CERRAR SESIÓN</string>
+   </property>
+  </widget>
+  <zorder>label_5</zorder>
+  <zorder>dcm</zorder>
+  <zorder>vertical_slider</zorder>
+  <zorder>formLayoutWidget</zorder>
+  <zorder>formLayoutWidget_2</zorder>
+  <zorder>label_3</zorder>
+  <zorder>cerrar</zorder>
+  <zorder>numero_imagen</zorder>
+  <zorder>buscar_imagen</zorder>
+  <zorder>advertencia</zorder>
+  <zorder>salir_</zorder>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
